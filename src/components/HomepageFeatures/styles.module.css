@@ -1,0 +1,33 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  
+  --ifm-col-width: 260px;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  letter-spacing: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #424242;
+  border-radius: 2px;
+  width: 260px;
+  margin-right: 2vw;
+  padding: 20px 30px;
+}
+
+html[data-theme='dark'] .button {
+  color: white;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+}

@@ -1,0 +1,3 @@
+[submodule "kc"]
+	path = kc
+	url = https://github.com/keychainmdip/kc

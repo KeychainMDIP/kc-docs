@@ -19,7 +19,8 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-
+      - name: Get submodules
+        run: git submodule init && git submodule update --remote --merge
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website

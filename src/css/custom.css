@@ -36,3 +36,8 @@
 [data-theme='dark'] footer {
   background-color: #000;
 }
+
+.code-block-terminal-command:before {
+  content: '$';
+  margin-right: 10px;
+}

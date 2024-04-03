@@ -135,6 +135,14 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['bash', 'json'],
+        magicComments: [
+          // Remember to extend the default highlight class name as well!
+          {
+            className: 'code-block-terminal-command',
+            line: 'terminal-command',
+          },
+        ],
       },
       colorMode: {
         defaultMode: "dark",

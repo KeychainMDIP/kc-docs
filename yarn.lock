@@ -7137,6 +7137,16 @@ remark-gfm@^4.0.0:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
+remark-github-admonitions-to-directives@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-github-admonitions-to-directives/-/remark-github-admonitions-to-directives-1.0.4.tgz#5e373f22c6aa49887e9db67af4e640a97e9a6b93"
+  integrity sha512-VLJNg722uOX8sC9rbsioGPR7Tt45oHvqUa58UDdptYylj2a7PmtBygvQUg93MUdPr2PrC/IJwC953+xWYDGprQ==
+  dependencies:
+    "@types/mdast" "^4.0.0"
+    mdast-util-directive "^3.0.0"
+    unified "^11.0.0"
+    unist-util-visit "^5.0.0"
+
 remark-mdx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-3.0.1.tgz#8f73dd635c1874e44426e243f72c0977cf60e212"

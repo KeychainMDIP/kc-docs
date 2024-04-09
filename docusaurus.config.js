@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -45,6 +46,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/keychainmdip/kc-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          beforeDefaultRemarkPlugins: [remarkGithubAdmonitionsToDirectives]
         },
         blog: {
           showReadingTime: true,
@@ -135,6 +137,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['bash', 'json']
       },
       colorMode: {
         defaultMode: "dark",

@@ -13,6 +13,7 @@ import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import Unlisted from '@theme/Unlisted';
 import styles from './styles.module.css';
 import ExperimentalCallout from '@site/src/components/globalCallouts/experimental';
+import GiscusComponent from '@site/src/components/GiscusComponent';
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
  */
@@ -57,6 +58,7 @@ export default function DocItemLayout({children}) {
             </DocItemContent>
             <DocItemFooter />
           </article>
+          <GiscusComponent/>
           <DocItemPaginator />
         </div>
       </div>

@@ -16,11 +16,11 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <img src={mdipLogo} /><br/>
+          <img src={mdipLogo} style={{marginLeft: "-30px"}}/><br/>
           MDIP
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div className={styles.copy}>
           MDIP stands for Multi Dimensional Identity Protocol.
           It is an open-source protocol and W3C-compliant DID scheme,
           designed to create an identity layer for the internet.
@@ -35,9 +35,9 @@ function HomepageHeader() {
         </div>
         <br/>
         <Heading as="h1" className="hero__title">
-          <img src={keychainLogoDark} /><br/>
+          <img src={keychainLogoDark} style={{marginLeft: "-100px", transform: "scale(0.8)"}}/><br/>
         </Heading>
-        <div className={styles.buttons}>
+        <div className={styles.copy}>
           Keychain is a proof of concept tool to demonstrate how the MDIP protocol can be used.
         </div>
       </div>

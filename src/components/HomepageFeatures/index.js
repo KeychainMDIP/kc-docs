@@ -14,24 +14,23 @@ const FeatureList = [
     link: 'https://github.com/keychainmdip/kc'
   },
   {
-    title: 'Documentation',
+    title: 'MDIP Scheme',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
       </>
     ),
-    link: '/docs'
+    link: '/docs/DID-scheme'
   },
-  /*{
-    title: 'Powered by React',
+  {
+    title: 'User Manual',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
       </>
     ),
-  },*/
+    link: '/docs/CLI-user-manual'
+  },
 ];
 
 function Feature({Svg, title, description, link}) {

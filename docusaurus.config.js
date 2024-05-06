@@ -73,21 +73,20 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },*/
-        /*
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/KeychainMDIP/kc/tree/main/doc',
             label: 'GitHub',
             position: 'right',
           },
-        ],*/
+        ],
       },
       footer: {
         style: 'dark',

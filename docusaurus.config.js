@@ -9,7 +9,7 @@ import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-di
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Keychain Documentation',
+  title: 'Keychain MDIP',
   tagline: '',
   favicon: 'img/favicon.ico',
 

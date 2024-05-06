@@ -33,7 +33,7 @@ jobs:
         env:
           pr: ${{ github.event.number }}
         run: |
-        echo "pr=$pr" >> $GITHUB_ENV
+          echo "pr=$pr" >> $GITHUB_ENV
           yarn install --frozen-lockfile
           BASEURL='/pr-preview/pr-$pr' yarn build
 

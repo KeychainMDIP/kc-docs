@@ -20,7 +20,7 @@ const FeatureList = [
       <>
       </>
     ),
-    link: '/docs/DID-scheme'
+    link: '/docs/mdip/scheme'
   },
   {
     title: 'User Manual',
@@ -29,7 +29,7 @@ const FeatureList = [
       <>
       </>
     ),
-    link: '/docs/CLI-user-manual'
+    link: '/docs/'
   },
 ];
 

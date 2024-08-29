@@ -36,3 +36,9 @@
 [data-theme='dark'] footer {
   background-color: #000;
 }
+
+.docs-doc-id-keychain\/library\/api\/index .container {
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 2px;
+}

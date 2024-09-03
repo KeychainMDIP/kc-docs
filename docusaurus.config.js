@@ -6,6 +6,8 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
+import Redocusaurus from "redocusaurus";
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -59,6 +61,32 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+    // Redocusaurus config
+    [
+      'redocusaurus',
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          // Pass it a path to a local OpenAPI YAML file
+          /*{
+            // Redocusaurus will automatically bundle your spec into a single file during the build
+            spec: 'kc/doc/openapi.yaml',
+            route: '/api/',
+          },*/
+          // You can also pass it a OpenAPI spec URL
+          {
+            id: 'keychain-json',
+            spec: 'kc/doc/openapi.json',
+            //route: '/docs/api',
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: '#1890ff',
+        },
+      },
     ],
   ],
 

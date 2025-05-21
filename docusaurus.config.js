@@ -77,7 +77,7 @@ const config = {
           // You can also pass it a OpenAPI spec URL
           {
             id: 'keychain-json',
-            spec: 'kc/doc/openapi.json',
+            spec: 'kc/doc/keymaster-api.json',
             //route: '/docs/api',
           },
         ],

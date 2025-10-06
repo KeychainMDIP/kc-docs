@@ -20,7 +20,7 @@ const FeatureList = [
       <>
       </>
     ),
-    link: '/docs/mdip/scheme'
+    link: '/docs/protocol/scheme'
   },
   {
     title: 'User Manual',

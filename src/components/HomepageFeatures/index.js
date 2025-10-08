@@ -14,15 +14,6 @@ const FeatureList = [
     link: 'https://github.com/keychainmdip/kc'
   },
   {
-    title: 'MDIP Scheme',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-      </>
-    ),
-    link: '/docs/protocol/scheme'
-  },
-  {
     title: 'User Manual',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
@@ -31,6 +22,15 @@ const FeatureList = [
     ),
     link: '/docs/'
   },
+  {
+    title: 'Downloads',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      </> 
+    ),
+    link: 'https://ipfs.mdip.yourself.dev/ipfs/QmdGx5gAVFna2DKJRQWD627Rh6vkhFNXeqBLAbTBRp6a8T'
+  }
 ];
 
 function Feature({Svg, title, description, link}) {

@@ -29,7 +29,7 @@ const FeatureList = [
       <>
       </> 
     ),
-    link: 'https://ipfs.mdip.yourself.dev/ipfs/QmdGx5gAVFna2DKJRQWD627Rh6vkhFNXeqBLAbTBRp6a8T'
+    link: 'https://ipfs.mdip.yourself.dev/ipfs/QmdVvipTLzT7enEW21i7hGmGX49BW6c8MibuovyurfKZnh/'
   }
 ];
 

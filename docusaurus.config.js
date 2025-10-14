@@ -164,7 +164,7 @@ const config = {
           },
         ],*/
         //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-        copyright: `© 2024 SELF ID, Inc.`,
+        copyright: `© 2025 SELF ID, Inc.`,
       },
       prism: {
         theme: prismThemes.github,

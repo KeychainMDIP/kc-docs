@@ -46,8 +46,9 @@ const config = {
           sidebarPath: './sidebars.js',
           path: 'kc/doc',
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/keychainmdip/kc-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({docPath}) => docPath === 'README.mdx'
+            ? 'https://github.com/KeychainMDIP/kc/edit/main/README.md'
+            : `https://github.com/KeychainMDIP/kc/edit/main/doc/${docPath}`,
           beforeDefaultRemarkPlugins: [remarkGithubAdmonitionsToDirectives]
         },
         blog: {

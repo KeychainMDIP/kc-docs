@@ -35,7 +35,7 @@ function HomepageHeader() {
         </div>
         <br/>
         <Heading as="h1" className="hero__title">
-          <img src={keychainLogoDark} style={{marginLeft: "-100px", transform: "scale(0.8)"}}/><br/>
+          <img className={styles.keychainLogo} src={keychainLogoDark} style={{marginLeft: "-100px", transform: "scale(0.8)"}}/><br/>
         </Heading>
         <div className={styles.copy}>
           Keychain is a proof of concept tool to demonstrate how the MDIP protocol can be used.
